@@ -1,4 +1,4 @@
-# DeSAW Code
+# Code
 
 Repository containing supplementary test cases and code for the paper "Deep Reinforcement Learning for Cybersecurity Assessment of Wind Integrated Power Systems".
 
