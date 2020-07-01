@@ -27,10 +27,10 @@ julia> Pkg.add("POMDPModelTools")
 
 ```
 ## Version of Packages 
-Atom v0.11.2
-BSON v0.2.4
-DeepQLearning v0.3.0
-FileIO v1.0.7
+*Atom v0.11.2
+*BSON v0.2.4
+*DeepQLearning v0.3.0
+*FileIO v1.0.7
 Flux v0.9.0
 Ipopt v0.6.0
 Json v0.21.0
