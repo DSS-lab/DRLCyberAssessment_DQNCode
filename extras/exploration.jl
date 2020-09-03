@@ -30,6 +30,7 @@ function exploration(pomdp)
           end
       end
   end
+  
   if !(choice in pomdp.been_visited)
       push!(pomdp.been_visited, choice)
   end
