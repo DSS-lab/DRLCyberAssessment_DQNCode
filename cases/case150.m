@@ -1,5 +1,5 @@
 % Case saved by PowerWorld Simulator, version 19, build date January 9, 2016
-function mpc = uiuc_150bus 
+function mpc = uiuc_150bus
 mpc.version = '2';
 mpc.baseMVA =  100.00;
 

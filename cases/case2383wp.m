@@ -1,4 +1,4 @@
-function mpc = case2383wp 
+function mpc = case2383wp
 %CASE2383WP  Power flow data for Polish system - winter 1999-2000 peak.
 %   Please see CASEFORMAT for details on the case file format.
 %

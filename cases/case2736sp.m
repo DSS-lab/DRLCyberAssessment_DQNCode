@@ -1,4 +1,4 @@
-function mpc = case2736sp 
+function mpc = case2736sp
 %CASE2736SP  Power flow data for Polish system - summer 2004 peak.
 %   Please see CASEFORMAT for details on the case file format.
 %

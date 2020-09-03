@@ -1,4 +1,4 @@
-function mpc = case145 
+function mpc = case145
 %CASE145    Power flow data for IEEE 145 bus, 50 generator dynamic test case.
 %   See CASEFORMAT for details on the MATPOWER case file format.
 %   Converted by MATPOWER 5.1 using CDF2MPC on 18-May-2016

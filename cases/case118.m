@@ -1,4 +1,4 @@
-function mpc = case118 
+function mpc = case118
 %CASE118    Power flow data for IEEE 118 bus test case.
 %   Please see CASEFORMAT for details on the case file format.
 %   This data was converted from IEEE Common Data Format
