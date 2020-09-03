@@ -12,8 +12,8 @@
     recurrence::Bool = false
     eps_fraction::Float64 = 0.5
     eps_end::Float64 = 0.01
-    evaluation_policy::Any = basic_evaluation
-    exploration_policy::Any = linear_epsilon_greedy(max_steps, eps_fraction, eps_end)
+#     evaluation_policy::Any = basic_evaluation
+#     exploration_policy::Any = linear_epsilon_greedy(max_steps, eps_fraction, eps_end)
     trace_length::Int64 = 42
     prioritized_replay::Bool = true
     prioritized_replay_alpha::Float64 = 0.6
