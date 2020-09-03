@@ -52,8 +52,6 @@ function CVSS(obj, a, b)
 
     exploitability_dict = Dict()
 
-    # Random.rand(1:4)
-
     exploitability_dict["G"] = Dict("AC"=>.44, "PR"=>.27, "UI"=>.62, "S"=> "changed",   "AV"=>av_values[4], "cia"=>.56)
     exploitability_dict["W"] = Dict("AC"=>.44, "PR"=>.27, "UI"=>.62, "S"=> "changed",   "AV"=>av_values[4], "cia"=>.56)
     exploitability_dict["L"] = Dict("AC"=>.77, "PR"=>.68, "UI"=>.85, "S"=> "unchanged", "AV"=>av_values[4], "cia"=>.22)
