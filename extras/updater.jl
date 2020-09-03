@@ -1,5 +1,4 @@
 import POMDPs
-
 struct HistoryUpdater <: Updater
     pomdp::PowerGridEnv
 end
