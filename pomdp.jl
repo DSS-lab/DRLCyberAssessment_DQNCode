@@ -14,6 +14,7 @@ module pomdp_class
     import POMDPs.isterminal
     import POMDPs.generate_sor
 
+
     include("extras/types.jl")
     include("extras/observations.jl")
     include("extras/actions.jl")
