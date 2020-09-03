@@ -152,6 +152,7 @@ module Grid_class
         top = hcat(dangerous[1:10],ind[1:10])
         return number_of_violations, margin_absolute, margin_relative, top
     end
+
     function N_1_analysis_alternative(obj::Data)
         beauty_print("   Start N-1 analysis  ")
         invB = inv(obj.B)
@@ -212,6 +213,7 @@ module Grid_class
          save(pathfile, "lines", lines, "margins", margins, "L", L, "limits", limits, "C1_isl", C1_isl)
          return obj
     end
+
     function N_2_analysis(obj::Data,approach)
         exists, structure = Grid_class.file_exists("/results/N_1_analysis_dangerous_lines",obj.case_name)
         if exists == 1
