@@ -34,7 +34,6 @@ module Algorithm
       else
         return g, arrA2[B4]
       end
-
     end
 
     function transition_probability()
