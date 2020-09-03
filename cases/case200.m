@@ -1,4 +1,4 @@
-function mpc = case_ACTIVSg200
+function mpc = case_ACTIVSg200 
 %CASE_ACTIVSG200  Synthetic Illinois 200-bus power system model.
 %
 %   This is an entirely synthetic 200 bus case, geographically situated
