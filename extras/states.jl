@@ -11,11 +11,6 @@ function POMDPs.initialstate_distribution(pomdp::PowerGridEnv)
     # return Deterministic(pomdp.cur_state)
 end
 
-# function POMDPs.initialstate(pomdp::PowerGridEnv, rng::MersenneTwister)
-#     return 27
-#     # return Random.rand(1:150)
-# end
-
 function reset!(env::POMDPEnvironment)
     env.problem.been_visited = []
     s = initialstate(env.problem, env.rng)
