@@ -39,6 +39,7 @@ module Reduction
          x[:,1] = x[:,1] ./ x[:,2]
          return new_rnc
     end
+
     function check_parallel(E)
         n = Sz.r(E)
         temp = []
@@ -72,6 +73,7 @@ module Reduction
         structure = hcat(E, temp)
         return structure
     end
+
     function remove_leafes(E,C,P,g,x,lim,oldf,rnc)
         w = zeros(Sz.c(C),1)
         P = hcat(P,P)
