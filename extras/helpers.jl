@@ -3,7 +3,7 @@ function shortest_path(obj::Grid_class.Data, A1, A2, B3, B4)
   for i in 1:Sz.r(obj.E)
     add_edge!(g, obj.E[i,1], obj.E[i,2])
   end
-
+  
   arrA1 = []
   arrA2 = []
   for path in enumerate_paths(dijkstra_shortest_paths(g, A1))
@@ -70,7 +70,6 @@ function save_model(solver::DeepQLearningSolver, active_q, scores_eval::Float64,
   end
   return model_saved, saved_mean_reward
 end
-
 
 function hiddenstates(m)
   return [l.state for l in m if l isa Flux.Recur]
