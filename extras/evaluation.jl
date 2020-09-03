@@ -16,8 +16,10 @@ function basic_evaluation(policy::AbstractNNPolicy, n_eval::Int64, max_length, v
         avg_steps += step
         avg_r += r_tot
     end
+    
     if verbose
         @printf("Evaluation ... Avg Reward %2.2f | Avg Step %2.2f \n", avg_r/n_eval, avg_steps/n_eval)
     end
+    
     return  avg_r / n_eval, avg_steps / n_eval
 end
