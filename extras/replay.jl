@@ -60,6 +60,7 @@ function populate_replay_buffer!(replay::PrioritizedReplayBuffer, env::AbstractE
             step = 1
         end
     end
+    
     for i in 1:length(replay._priorities)
         if isnan(replay._priorities[i])
             replay._priorities[i] = 0
