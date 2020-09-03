@@ -4,7 +4,6 @@ function reward_calculator(E, W, c1, c2, obj, contingencies)
   reward_val =  zeros(Sz.r(E))
 
   discount_factor = .9
-
   s_prime = 0
 
   transition_probability = pomdp_class.transition_probability(obj)
