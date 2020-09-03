@@ -56,9 +56,11 @@ function solve(solver::DeepQLearningSolver, env::AbstractEnvironment, model::Cha
       step = 0
       rtot = 0
     end
+    
     num_episodes = length(episode_rewards)
     avg100_reward = mean(episode_rewards[max(1, length(episode_rewards)-101):end])
     avg100_steps = mean(episode_steps[max(1, length(episode_steps)-101):end])
+    
     if t % 2 == 0 # TODO set training frequency
         hs = hiddenstates(active_q)
         loss_val, td_errors, grad_val = batch_train!(solver, env, policy, optimizer, target_q, replay)
