@@ -1,7 +1,7 @@
 # Code supplement for "DRL for Cybersecurity Assessment of Wind Integrated Power Systems"
 
 
-This repository contains supplementary test cases and code for the paper "Deep Reinforcement Learning for Cybersecurity Assessment of Wind Integrated Power Systems", by XiaoRui Liu, Juan Ospina, and Charalambos Konstantinou. 
+This repository contains supplementary test cases and code for the paper ["Deep Reinforcement Learning for Cybersecurity Assessment of Wind Integrated Power Systems"](https://ieeexplore.ieee.org/document/9261465), by XiaoRui Liu, Juan Ospina, and Charalambos Konstantinou. 
 
 If you find this code useful, please consider citing our paper:
 
