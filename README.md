@@ -5,7 +5,7 @@ This repository contains supplementary test cases and code for the paper "Deep R
 
 If you find this code useful, please consider citing our paper:
 
-    @ARTICLE{9261465,
+    @ARTICLE{liu2020deep,
 	author={X. {Liu} and J. {Ospina} and C. {Konstantinou}},
 	journal={IEEE Access}, 
 	title={Deep Reinforcement Learning for Cybersecurity Assessment of Wind Integrated Power Systems}, 
