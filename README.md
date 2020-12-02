@@ -5,16 +5,18 @@ This repository contains supplementary test cases and code for the paper "Deep R
 
 If you find this code useful, please consider citing our paper:
 
-@ARTICLE{9261465,
-  author={X. {Liu} and J. {Ospina} and C. {Konstantinou}},
-  journal={IEEE Access}, 
-  title={Deep Reinforcement Learning for Cybersecurity Assessment of Wind Integrated Power Systems}, 
-  year={2020},
-  volume={8},
-  number={},
-  pages={208378-208394},
-  doi={10.1109/ACCESS.2020.3038769}}
-
+    @ARTICLE{9261465,
+	author={X. {Liu} and J. {Ospina} and C. {Konstantinou}},
+	journal={IEEE Access}, 
+	title={Deep Reinforcement Learning for Cybersecurity Assessment of Wind Integrated Power Systems}, 
+	year={2020},
+	volume={8},
+	number={},
+	pages={208378-208394},
+	doi={10.1109/ACCESS.2020.3038769}}
+    }
+    
+    
 ## Julia Installation
 
 You can download Julia from [Link](https://julialang.org/).
